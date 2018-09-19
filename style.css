@@ -9,7 +9,7 @@ body{
 }
 
 
-
+/* hr - horizontal rule for green line under 1st Heading */
 hr{
   display: block;
   height: 0;
@@ -21,6 +21,7 @@ hr{
   padding: 0;
 }
 
+/* Create 1st container to center webpage */
 .container{
   margin: 0;
   padding: 20px;
@@ -76,6 +77,7 @@ p{
   text-align: left;
 }
 
+/* Must create second container to display two blocks in a row */
 .container2{
   margin: 0px;
   padding: 30px;
@@ -106,12 +108,12 @@ p{
   
 }
 
+/*Entire Form*/
 .my-form{
   padding: 5px;
   margin: 10px;
   border: 2px solid lightgray;
-  border-radius: 5px;
-  
+  border-radius: 5px; 
 }
 
 .my-form .form-group{
@@ -129,6 +131,7 @@ p{
   width: 80%;
 }
 
+/* For Text box */
 .my-form textarea{
   margin: 5px;
   padding: 10px;
